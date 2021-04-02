@@ -10,6 +10,12 @@ body {
   height: 100vh;
   width: 100%;
 }
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  color: snow;
+  font-size: 3rem;
+}
 .memory2 {
   background: linear-gradient(to bottom, #34657c, #b38970, #21523a); 
 }
@@ -18,7 +24,7 @@ body {
   grid-template: repeat(2, 200px) / repeat(2, 200px);
   width: 800px;
   height: 600px;
-  margin: 15vh auto ;
+  margin: 12vh auto ;
 }
 .grid-1 {
   display: grid;
@@ -26,7 +32,7 @@ body {
   grid-template-rows: 200px 200px;
   width: 600px;
   height: 600px;
-  margin: 15vh auto;
+  margin: 12vh auto;
   justify-content: center;
 }
 .grid-2 {
@@ -35,7 +41,7 @@ body {
   grid-template-rows: 200px 200px 200px;
   width: 600px;
   height: 600px;
-  margin: 15vh auto;
+  margin: 12vh auto;
   justify-content: center;
 }
 .card {
