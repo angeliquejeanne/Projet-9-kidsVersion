@@ -9,6 +9,7 @@ body {
   background: linear-gradient(to bottom, #34367c, #b370a2, #213052); 
   height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 h1 {
   text-align: center;
@@ -19,9 +20,15 @@ h1 {
 .memory2 {
   background: linear-gradient(to bottom, #34657c, #b38970, #21523a); 
 }
+.memory3 {
+  background: linear-gradient(to bottom, #347c4c, #b370aa, #3f5221); 
+}
+.memory4 {
+  background: linear-gradient(to bottom, #59347c, #adaf24, #214c52); 
+}
 .grid {
   display: grid;
-  grid-template: repeat(2, 200px) / repeat(2, 200px);
+  grid-template: repeat(3, 200px) / repeat(4, 200px);
   width: 800px;
   height: 600px;
   margin: 12vh auto ;
