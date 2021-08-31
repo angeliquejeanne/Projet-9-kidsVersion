@@ -48,7 +48,7 @@ h1 {
   grid-template-rows: 200px 200px 200px;
   width: 600px;
   height: 600px;
-  margin: 12vh auto;
+  margin: 10vh auto 0;
   justify-content: center;
 }
 .card {
